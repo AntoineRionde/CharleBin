@@ -2,12 +2,12 @@
 /**
  * PrivateBin
  *
- * a zero-knowledge paste bin
+ * A zero-knowledge paste bin
  *
- * @link      https://github.com/PrivateBin/PrivateBin
  * @copyright 2012 Sébastien SAUVAGE (sebsauvage.net)
  * @license   https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License
  * @version   1.5.1
+ * @link      https://github.com/PrivateBin/PrivateBin
  */
 
 namespace PrivateBin;
@@ -18,19 +18,19 @@ use PDO;
 /**
  * Configuration
  *
- * parses configuration file, ensures default values present
+ * Parses configuration file, ensures default values present
  */
 class Configuration
 {
     /**
-     * parsed configuration
+     * Parsed configuration
      *
      * @var array
      */
     private $_configuration;
 
     /**
-     * default configuration
+     * Default configuration
      *
      * @var array
      */
@@ -105,7 +105,7 @@ class Configuration
     );
 
     /**
-     * parse configuration file and ensure default configuration values are present
+     * Parse configuration file and ensure default configuration values are present
      *
      * @throws Exception
      */
