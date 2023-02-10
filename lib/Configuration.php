@@ -14,7 +14,6 @@ namespace PrivateBin;
 
 use Exception;
 use PDO;
-
 /**
  * Configuration
  *
@@ -237,7 +236,7 @@ class Configuration
             $this->_configuration['model']['class']
         );
 
-        // ensure a valid expire default key is set
+        // Ensure a valid expire default key is set
         if (!array_key_exists($this->_configuration['expire']['default'], $this->_configuration['expire_options'])) {
             $this->_configuration['expire']['default'] = key($this->_configuration['expire_options']);
         }
