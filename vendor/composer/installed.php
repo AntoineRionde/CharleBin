@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '2b51368d424228226def5e5076e5a1b08e6f7cc1',
+        'reference' => 'ab027a4227a829007edd8008b65027354c7a3fa5',
         'name' => 'privatebin/privatebin',
         'dev' => true,
     ),
@@ -56,12 +56,12 @@
             'dev_requirement' => true,
         ),
         'friendsofphp/php-cs-fixer' => array(
-            'pretty_version' => 'v3.14.3',
-            'version' => '3.14.3.0',
+            'pretty_version' => 'v3.14.4',
+            'version' => '3.14.4.0',
             'type' => 'application',
             'install_path' => __DIR__ . '/../friendsofphp/php-cs-fixer',
             'aliases' => array(),
-            'reference' => 'b418036b95b4936a33fe906245d3044395935e73',
+            'reference' => '1b3d9dba63d93b8a202c31e824748218781eae6b',
             'dev_requirement' => true,
         ),
         'jdenticon/jdenticon' => array(
@@ -115,7 +115,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '2b51368d424228226def5e5076e5a1b08e6f7cc1',
+            'reference' => 'ab027a4227a829007edd8008b65027354c7a3fa5',
             'dev_requirement' => false,
         ),
         'psr/cache' => array(

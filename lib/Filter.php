@@ -1,4 +1,5 @@
 <?php
+
 /**
  * PrivateBin
  *
@@ -49,6 +50,7 @@ class Filter
         }
         return I18n::_(array('%d ' . $unit, '%d ' . $unit . 's'), (int) $matches[1]);
     }
+
 
     /**
      * format a given number of bytes in IEC 80000-13:2008 notation (localized)

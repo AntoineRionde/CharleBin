@@ -1,4 +1,5 @@
 <?php
+
 /**
  * PrivateBin
  *
@@ -14,6 +15,7 @@ namespace PrivateBin;
 
 use Exception;
 use PDO;
+
 /**
  * Configuration
  *
@@ -59,16 +61,13 @@ class Configuration
             'compression'              => 'zlib',
         ),
         'expire' => array(
-<<<<<<< HEAD
-            'default' => '1day',
-=======
-            'default' => '1month',
->>>>>>> change-default-expiration
+            'default' => '1month'
         ),
         'expire_options' => array(
+            '1min'   => 60,
             '5min'   => 300,
             '10min'  => 600,
-	    '30min'  => 1800,
+            '30min'  => 1800,
             '1hour'  => 3600,
             '1day'   => 86400,
             '1week'  => 604800,
@@ -226,7 +225,8 @@ class Configuration
 
         // support for old config file format, before the fork was renamed and PSR-4 introduced
         $this->_configuration['model']['class'] = str_replace(
-            'zerobin_', 'privatebin_',
+            'zerobin_',
+            'privatebin_',
             $this->_configuration['model']['class']
         );
 

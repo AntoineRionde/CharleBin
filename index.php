@@ -1,4 +1,5 @@
 <?php
+
 /**
  * PrivateBin
  *
@@ -9,6 +10,8 @@
  * @license   https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License
  * @version   1.5.1
  */
+
+use PrivateBin\Filter;
 
 // change this, if your php files and data is outside of your webservers document root
 define('PATH', '');

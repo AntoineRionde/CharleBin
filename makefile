@@ -10,4 +10,5 @@ lint:
 	find . -type f -name '*.php' -exec php -l {} \;
 	./vendor/bin/phpcs --extensions=php ./lib/
 	./vendor/bin/phpmd ./lib ansi codesize,unusedcode,naming
-
+dev:
+	php -dxdebug.mode=debug -dxdebug.start_with_request=yes -S localhost:8080
